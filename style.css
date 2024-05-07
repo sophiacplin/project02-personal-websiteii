@@ -42,6 +42,7 @@ li a {
 
 .about-page>h2{
   font-size: 30px;
+
   font-weight: bolder;
   display: block;
   color: black;
@@ -77,4 +78,20 @@ margin: 20px;
 
 .about-blocks>h3 {
   margin: 20px;
+}
+
+
+/* entering style of portfolio */
+
+.portfolio-blocks {
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+  float: inline-end;
+  display: block;
+  background-color: rgba(133, 128, 128, 0.552);
+}
+.portfolio-blocks>img {
+  width: 200px;
+  float: right;
 }
