@@ -1,0 +1,80 @@
+
+
+
+/* below is the CSS for home page */
+
+.navbar {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 25px;
+  font-family: monospace;
+  justify-content: space-between;
+
+} 
+
+.logo a {
+  text-decoration: none;
+  font-size: 50px;
+  color: black;
+  margin: 20px 20px 5px 20px;
+}
+
+li {
+  list-style: none;
+  float: left;
+}
+
+li a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 80px;
+}
+
+.home-image>img{
+  width: 380px;
+  margin: 0px 5px
+}
+
+
+/* entering CSS for about page */
+
+.about-page>h2{
+  font-size: 30px;
+  font-weight: bolder;
+  display: block;
+  color: black;
+  padding: 10px;
+  border: 2px;
+  border-color: black;
+  }
+
+.about-intro{
+  text-align: center;
+  font-size: 30px;
+  font-family: cursive;
+display: inline-block;
+margin: 20px;
+
+}
+
+.about-intro>p{
+  margin: 20px;
+}
+.about-image{
+  width:200px
+}
+
+.about-blocks{
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgba(180, 178, 178, 0.539);
+  display: inline-block;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.about-blocks>h3 {
+  margin: 20px;
+}
