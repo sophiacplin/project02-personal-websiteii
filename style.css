@@ -10,7 +10,6 @@
   padding: 25px;
   font-family: monospace;
   justify-content: space-between;
-
 } 
 
 .logo a {
@@ -32,7 +31,7 @@ li a {
   margin-right: 80px;
 }
 
-.home-image>img{
+.home-image>img {
   width: 380px;
   margin: 0px 5px
 }
@@ -40,34 +39,28 @@ li a {
 
 /* entering CSS for about page */
 
-.about-page>h2{
-  font-size: 30px;
-
-  font-weight: bolder;
-  display: block;
+.about-page>h2 {
   color: black;
   padding: 10px;
-  border: 2px;
-  border-color: black;
+  border-bottom: 2px solid black;
+  margin-bottom: 50px;
+  width: 300px;
   }
 
-.about-intro{
+.about-intro {
   text-align: center;
   font-size: 30px;
   font-family: cursive;
 display: inline-block;
-margin: 20px;
-
+margin: 0px 20px 20px 20px;
 }
 
-.about-intro>p{
-  margin: 20px;
-}
 .about-image{
   width:200px
 }
 
-.about-blocks{
+.about-blocks {
+  color:rgb(61, 58, 58);
   font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
   background-color: rgba(180, 178, 178, 0.539);
@@ -82,6 +75,12 @@ margin: 20px;
 
 
 /* entering style of portfolio */
+
+.portfolio-header {
+  border-bottom: 2px solid black;
+  margin-bottom: 50px;
+  width: 300px;
+}
 
 .portfolio-blocks {
   padding: 15px;
