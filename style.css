@@ -1,7 +1,7 @@
 
 
 
-/* below is the CSS for home page */
+/* below is the style for home page */
 
 .navbar {
   background-color: white;
@@ -37,13 +37,14 @@ li a {
 }
 
 
-/* entering CSS for about page */
+/* entering style for about page */
 
 .about-page>h2 {
   color: black;
   padding: 10px;
   border-bottom: 2px solid black;
   width: 300px;
+  font-size: 25px;
   }
 
 .about-intro {
@@ -77,8 +78,10 @@ margin: 0px 20px 20px 20px;
 
 .portfolio-header {
   border-bottom: 2px solid black;
-  margin-bottom: 50px;
   width: 300px;
+  margin-bottom: 50px;
+  padding-left: 10px;
+  font-size: 15px;
 }
 
 .portfolio-blocks {
