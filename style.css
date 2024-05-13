@@ -10,7 +10,7 @@
   padding: 25px;
   font-family: monospace;
   justify-content: space-between;
-  flex-shirnk: 50;
+
 } 
 
 .logo a {
@@ -18,6 +18,11 @@
   font-size: 50px;
   color: black;
   margin: 20px 20px 5px 20px;
+}
+
+.logo:hover {
+
+  font-weight: lighter;
 }
 
 li {
@@ -32,25 +37,39 @@ li a {
   margin-right: 80px;
 }
 
+li a:hover {
+  font-weight: bolder;
+}
+
 .home-image {
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin: 10px;
   }
+
 .image01 {
   flex: 1;
-  width: 380px;
+  height: 500px;
+  object-fit: cover;
+  object-position: bottom;
+  margin-right: 10px;
 }
 
 .image02 {
   flex: 1;
-  width: 380px;
+  height: 500px;
+  object-fit: cover;
+  object-position: center;
+  margin-right: 10px;
+
 }
 
 .image03 {
   flex: 1;
-  width: 380px;
+  height: 500px;
+  object-fit: cover;
+  object-position: bottom;
 }
 
 
@@ -68,6 +87,26 @@ li a {
 .about-page {
   display: flex;
   flex-direction: row;
+  margin: 20px;
+}
+
+.about-blocks {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+
+}
+.about-blocks>h3 {
+  color:rgb(61, 58, 58);
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgba(180, 178, 178, 0.539);
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+  width:150px;
 }
 
 .about-intro {
@@ -77,36 +116,24 @@ li a {
   font-size: 30px;
   font-family: cursive;
   padding:10px;
-  margin: 10px 20px 20px 20px;
-  justify-self: center;
+  border: 1px solid rgb(178, 173, 173);
+  flex: 200px;
 }
 
 .about-image{
   width:200px;
   border-radius:10px;
-}
-
-.about-blocks {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-self: center;
+  justify-self: center;
 
 }
 
-.about-blocks>h3 {
-  color:rgb(61, 58, 58);
-  font-size: 20px;
-  font-family: 'Times New Roman', Times, serif;
-  background-color: rgba(180, 178, 178, 0.539);
-  display: inline-block;
-  padding: 20px;
-  border-radius: 10px;
-  margin: 20px;
-  width: 150px;
+.about-blocks>h3:hover {
+  color: rgb(245, 239, 239);
 }
 
+.extra-space {
+  flex:1;
+}
 
 /* entering style of portfolio */
 
@@ -131,6 +158,63 @@ li a {
 }
 
 .portfolio-blocks>img {
-  width: 200px;
+  width: 20%;
   float: right;
+}
+
+.portfolio-blocks>img:hover {
+  margin: 20px;
+}
+
+/* css for the form page */
+
+.contact-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-heading {
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  background-color: rgba(194, 185, 185, 0.626);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  border-radius: 30px;
+
+}
+
+.form-name {
+  flex: 1;
+  margin: 15px;
+
+}
+
+.form-email {
+  flex: 1;
+  margin: 15px;
+
+}
+
+.form-message {
+  flex: 1;
+  margin: 15px;
+ 
+}
+
+.submit-button {
+  border-radius: 5px;
+  margin:10px;
+  padding: 5px 8px;
+
+}
+
+.success-paragraph {
+  font-weight: bolder;
+  font-size: 3rem;
 }
