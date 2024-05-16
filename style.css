@@ -85,19 +85,22 @@ li a:hover {
   }
 
 .about-page {
-  display: flex;
-  flex-direction: row;
+  /* display: grid;
+  grid-template-columns: 350px 350px; */
   margin: 20px;
+  justify-content: center;
+  display: flex;
 }
 
 .about-blocks {
-  flex: 1;
   display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: center;
-
+  align-items: center;
+  flex-basis: 350px;
 }
+
 .about-blocks>h3 {
   color:rgb(61, 58, 58);
   font-size: 20px;
@@ -109,6 +112,10 @@ li a:hover {
   width:150px;
 }
 
+.about-blocks>h3:hover {
+  padding: 30px;
+}
+
 .about-intro {
   background-color: rgb(237, 234, 241);
   color: rgb(99, 90, 90);
@@ -117,24 +124,19 @@ li a:hover {
   font-family: cursive;
   padding:10px;
   border: 1px solid rgb(178, 173, 173);
-  flex: 200px;
+  flex-basis: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .about-image{
   width:200px;
   border-radius:10px;
-  justify-self: center;
-
+  align-items: center;
 }
 
-.about-blocks>h3:hover {
-  color: rgb(245, 239, 239);
-}
-
-.extra-space {
-  flex:1;
-}
-
+s
 /* entering style of portfolio */
 
 .portfolio-header {
@@ -166,7 +168,7 @@ li a:hover {
   margin: 20px;
 }
 
-/* css for the form page */
+/* css for the contact page */
 
 .contact-box{
   display: flex;
